@@ -19,6 +19,16 @@ class Perrypedia(Source):
     version = (1, 0, 0)
     minimum_calibre_version = (0, 8, 0)
 
+    def is_customizable(self):
+        return True
+
+    def config_widget(self):
+        from calibre_plugins.perrypedia_metadata.config import ConfigWidget
+        return ConfigWidget(self)
+
+    def save_settings(self, config_widget):
+        config_widget.save_settings()
+
 
 if __name__ == '__main__': # tests
     # To run these test use:
