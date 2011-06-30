@@ -18,3 +18,9 @@ class Perrypedia(Source):
     author = 'Hakan Tandogan'
     version = (1, 0, 0)
     minimum_calibre_version = (0, 8, 0)
+
+
+if __name__ == '__main__': # tests
+    # To run these test use:
+    # calibre-debug -e __init__.py
+    from calibre.ebooks.metadata.sources.test import (test_identify_plugin, title_test, authors_test, series_test)
