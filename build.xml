@@ -1,4 +1,4 @@
-<project name="beam-ebooks-metadata-plugin" default="install">
+<project name="perrypedia-metadata-plugin" default="install">
 
 	<property name="version" value="1.0.0" />
 
