@@ -1,0 +1,2 @@
+calibre-perrypedia-metadata-plugin
+==================================
